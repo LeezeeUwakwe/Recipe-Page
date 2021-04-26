@@ -132,6 +132,11 @@ input[type="checkbox"] {
   margin-top: 1rem;
   width: 400px;
 }
+.fourth-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+
+}
 .instruction-list{
   display: flex;
   align-items: flex-start;
@@ -154,9 +159,6 @@ input[type="checkbox"] {
 .fourth-text div {
   margin-top: 1rem;
 }
-
-
-
 footer {
   margin-top: 5rem;
 }
@@ -168,18 +170,25 @@ footer p {
   font-size: 12px;
 }
 @media screen  and (max-width: 768px) {
+ 
   .wrapper {
-    width: 90%;
-    margin: 0 auto;
+    width: 300px;
   }
+  
   .first-text h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .first-text p {
-    font-size: 15px;
+    font-size: 11px;
+    width: 270px;
+    margin-top: 2px;
+
+  }
+  .dots {
+    margin-bottom: 32px;
   }
   .image-text img {
-    width: 380px;
+    width: 300px;
   }
   aside {
       position: relative;
@@ -190,10 +199,35 @@ footer p {
   }
   .content {
     display: flex;
-    width: 200px;
-    
+    padding: 0;
   }
- 
+  
+  .Icon-text h4 {
+    font-size: 4px;
+  }
+  .Icon-text p {
+    font-size: 3px;
+  }
+   /* .second-text {
+     width: 200px;
+   } */
+   .second-text h2 {
+     font-size: 15px;
+   }
+   .checkbox-text {
+     font-size: 12px;
+     width: 300px;
+   }
+   .fourth-text>h2 {
+     font-size: 16px ;
+   }
+   .instruction-text {
+     width: 250px;
+   }
+   footer p {
+     font-size: 9px;
+     text-align: right;
+   }
 
 
 

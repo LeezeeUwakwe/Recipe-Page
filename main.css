@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+}
+.wrapper {
+  width: 700px;
+ margin: 0 auto;
+}
+.first-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+.img-text {
+  display: flex;
+}
+.dot-text {
+  margin-left: 0.5rem;
+}
+.dots {
+  margin-bottom: 16px;
+}
+.first {
+  position: relative;
+}
+.first-text p {
+  margin-top: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  width: 600px;
+  font-size: 14px;
+}
+aside {
+  background-color: #FFFFFF ;
+  position: absolute;
+  bottom: -50%;
+  right: 0;
+  border-radius: 4px;
+  width: 125px;
+  padding: 1.5rem 0;
+  color: #000000;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
+ }
+ .Icon {
+  display: flex;
+  padding: 0.5rem;
+}
+.Icon-text {
+  margin-left: 1rem;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.Icon-text h4 {
+  font-size: 7px;
+   font-weight: 200;
+   text-transform: uppercase;
+}
+.Icon-text p {
+  font-size: 9px;
+}
+.cutlery {
+  color: #F2994A;
+}
+ .content {
+   padding: 0.5rem;
+ } 
+
+.image-text {
+  width: 100%;
+  margin-top: 1rem;
+}
+.image-text img {
+  width: 700px;
+}
+.second {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+
+.second-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+}
+.checkbox-text {
+  padding-left: 0.5rem;
+  align-items: center;
+}
+.second-text ul {
+  margin-top: 1rem;
+}
+.graham {
+  font-family: 'Playfair Display', serif;;
+  font-style: italic;
+  font-size: 11px;
+  padding-top: 0.7rem;
+
+}
+
+li {
+  width: 400px;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 1.5rem;
+  display: flex;
+}
+input[type="checkbox"] {
+  margin-top: 5px;
+}
+.third-text {
+  margin-top: 1.5rem;
+}
+.cheese {
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+}
+.third-text ul {
+  margin-top: 1rem;
+}
+.fourth-text {
+  margin-top: 1rem;
+  width: 400px;
+}
+.instruction-list{
+  display: flex;
+  align-items: flex-start;
+}
+.number {
+  background-color: #F2994A;
+  padding: .1rem 0.5rem;
+  margin-right: .5rem;
+  border-radius: 4px;
+  color: white; 
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 5px;
+}
+.instruction-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1rem;
+}
+.fourth-text div {
+  margin-top: 1rem;
+}
+
+
+
+footer {
+  margin-top: 5rem;
+}
+footer p {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+@media screen  and (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .first-text h1 {
+    font-size: 25px;
+  }
+  .first-text p {
+    font-size: 15px;
+  }
+  .image-text img {
+    width: 380px;
+  }
+  aside {
+      position: relative;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      box-shadow: none;
+  }
+  .content {
+    display: flex;
+    width: 200px;
+    
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+  

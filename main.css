@@ -12,6 +12,7 @@ main {
  margin: 0 auto;
 }
 .first-text h1 {
+  margin-top: 1rem;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 40px;
@@ -23,7 +24,7 @@ main {
   margin-left: 0.5rem;
 }
 .dots {
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 .first {
   position: relative;
@@ -49,6 +50,7 @@ aside {
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
   -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
  }
+ 
  .Icon {
   display: flex;
   padding: 0.5rem;
@@ -102,9 +104,7 @@ aside {
   font-style: italic;
   font-size: 11px;
   padding-top: 0.7rem;
-
 }
-
 li {
   width: 400px;
   list-style: none;
@@ -115,6 +115,7 @@ li {
 }
 input[type="checkbox"] {
   margin-top: 5px;
+  color: #ffff;
 }
 .third-text {
   margin-top: 1.5rem;
@@ -135,7 +136,6 @@ input[type="checkbox"] {
 .fourth-text h2 {
   font-family: 'Playfair Display', serif;
   font-size: 17px;
-
 }
 .instruction-list{
   display: flex;
@@ -143,18 +143,48 @@ input[type="checkbox"] {
 }
 .number {
   background-color: #F2994A;
-  padding: .1rem 0.5rem;
+  padding: 0.1rem 0.4rem;
   margin-right: .5rem;
   border-radius: 4px;
   color: white; 
   font-family: 'Playfair Display', serif;
   padding-bottom: 5px;
 }
+.one {
+  padding: 0.2rem 0.7rem;
+  padding-bottom: 5px;
+}
+.two {
+  padding: 0.2rem 0.6rem;
+  padding-bottom: 6px;
+}
+.three {
+  padding: 0.1rem 0.6rem;
+  padding-bottom: 5px;
+}
+.four {
+  padding: 0.1rem 0.6rem;
+  padding-bottom: 5px;
+}
+.five {
+  padding: 0.1rem 0.6rem;
+  padding-bottom: 6px;
+}
+.six {
+  padding: 0.1rem 0.6rem;
+  padding-bottom: 6px;
+}
+.seven {
+  padding: 0.1rem 0.7rem;
+  padding-bottom: 5px;
+}
+
 .instruction-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 1rem;
+  width: 500px;
 }
 .fourth-text div {
   margin-top: 1rem;
@@ -170,38 +200,43 @@ footer p {
   font-size: 12px;
 }
 @media screen  and (max-width: 768px) {
- 
+ main {
+    width: 100%;
+  } 
   .wrapper {
-    width: 300px;
+    width: 90%;
   }
-  
   .first-text h1 {
-    font-size: 20px;
+    font-size: 22px;
   }
   .first-text p {
     font-size: 11px;
-    width: 270px;
+    width: 290px;
     margin-top: 2px;
-
   }
   .dots {
-    margin-bottom: 32px;
+    margin-bottom: 53px;
   }
-  .image-text img {
+  li {
     width: 300px;
   }
+  .image-text img {
+    width: 290px;
+  }
   aside {
-      position: relative;
-      right: 0;
-      bottom: 0;
-      width: 100%;
-      box-shadow: none;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    box-shadow: none;
+  }
+  .second-aside {
+    display: flex;
   }
   .content {
     display: flex;
     padding: 0;
   }
-  
   .Icon-text h4 {
     font-size: 4px;
   }
@@ -216,7 +251,10 @@ footer p {
    }
    .checkbox-text {
      font-size: 12px;
-     width: 300px;
+     width: 250px;
+   }
+   .fourth-text {
+     width: 250px;
    }
    .fourth-text>h2 {
      font-size: 16px ;
@@ -224,9 +262,12 @@ footer p {
    .instruction-text {
      width: 250px;
    }
+   footer {
+     width: 100%;
+   }
    footer p {
-     font-size: 9px;
-     text-align: right;
+     text-align: center;
+     font-size: 7px;
    }
 
 

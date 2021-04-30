@@ -233,13 +233,13 @@ footer p {
    }
   
   .dots {
-    margin-bottom: 36px;
+    margin-bottom: 50px;
   }
   li {
     width: 300px;
   }
   .image-text img {
-    width: 320px;
+    width: 310px;
     height: 190px;
     border-radius: 10px;
   }
@@ -253,17 +253,20 @@ footer p {
  
   .content {
     display: flex;
+    margin: 0;
     padding: 0;
   }
   .Icon-text {
     font-weight: 500;
+  
   }
   .Icon-text h4 {
-    font-size: 7px;
-    margin: 0;
+    font-size: 7.5px;
+    
+    
   }
   .Icon-text p {
-    font-size: 6px;
+    font-size: 7px;
   }
    /* .second-text {
      width: 200px;
@@ -272,17 +275,19 @@ footer p {
      font-size: 15px;
    }
    .checkbox-text {
+     padding-left: 0.7rem;
      font-size: 12px;
-     width: 250px;
+     width: 305px;
    }
    .fourth-text {
-     width: 250px;
+     width: 308px;
    }
    .fourth-text>h2 {
      font-size: 16px ;
    }
    .instruction-text {
-     width: 250px;
+     
+     padding-left: 0.6rem;
    }
    footer {
      width: 100%;

@@ -239,7 +239,8 @@ footer p {
     width: 300px;
   }
   .image-text img {
-    width: 300px;
+    width: 320px;
+    height: 190px;
     border-radius: 10px;
   }
   aside {

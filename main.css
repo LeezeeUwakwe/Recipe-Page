@@ -199,50 +199,67 @@ footer p {
   font-weight: 700;
   font-size: 12px;
 }
+
+
+/* media query */
 @media screen  and (max-width: 768px) {
  main {
     width: 100%;
   } 
+  /* .wrapper {
+    width: 98%;
+  } */
   .wrapper {
-    width: 95%;
+    width: 310px;
   }
   .first-text h1 {
-    font-size: 22px;
+    font-size: 20px;
   }
   .first-text p {
     font-size: 11px;
-    width: 250px;
+    width: 275px;
     margin-top: 5px;
   }
    .Item {
-     font-size: 15px !important;
+     font-size: 17px !important;
+   }
+   .second-aside {
+     display: flex;
+     width: 90%;
+     justify-content: space-between;
+     padding-top: 1rem;
+     
+     
    }
   
   .dots {
     margin-bottom: 36px;
   }
   li {
-    width: 350px;
+    width: 300px;
   }
   .image-text img {
     width: 300px;
+    border-radius: 10px;
   }
   aside {
     position: relative;
     right: 0;
     bottom: 0;
-    width: 250px;
+    width: 100%;
     box-shadow: none;
   }
-  .second-aside {
-    display: flex;
-  }
+ 
   .content {
     display: flex;
     padding: 0;
   }
+  .Icon-text {
+    font-weight: 500;
+  }
   .Icon-text h4 {
-    font-size: 5px;
+    font-size: 7px;
+    margin: 0;
   }
   .Icon-text p {
     font-size: 6px;
